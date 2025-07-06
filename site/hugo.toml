@@ -3,6 +3,35 @@ languageCode = "en-us"
 languageLang = "en"
 title = "Abigail El Thomas"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+theme = 'anatole'
 
 [params]
+title = "It's A Thomas"
+author = "Abigail El Thomas"
+description = "The Journey of Abigail Elisabeth"
+profilePicture = "img/profile.jpg"
 images = ["img/og-image.jpg"]
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://linkedin.com/in/aethomas00"
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 200
+  identifier = "blog"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"

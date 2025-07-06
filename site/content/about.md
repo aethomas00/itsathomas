@@ -1,0 +1,1 @@
+Hard-working entrepreneur with >5 years experience in hospitality and an MsC in Organizational Leadership.
